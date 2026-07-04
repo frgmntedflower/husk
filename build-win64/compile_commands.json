@@ -1,0 +1,56 @@
+[
+{
+  "directory": "/home/lu/dev/husk/build-win64/vendor/imgui",
+  "command": "/usr/bin/x86_64-w64-mingw32-g++  @CMakeFiles/imgui.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/imgui.dir/imgui.cpp.obj -c /home/lu/dev/husk/vendor/imgui/imgui.cpp",
+  "file": "/home/lu/dev/husk/vendor/imgui/imgui.cpp",
+  "output": "vendor/imgui/CMakeFiles/imgui.dir/imgui.cpp.obj"
+},
+{
+  "directory": "/home/lu/dev/husk/build-win64/vendor/imgui",
+  "command": "/usr/bin/x86_64-w64-mingw32-g++  @CMakeFiles/imgui.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/imgui.dir/imgui_draw.cpp.obj -c /home/lu/dev/husk/vendor/imgui/imgui_draw.cpp",
+  "file": "/home/lu/dev/husk/vendor/imgui/imgui_draw.cpp",
+  "output": "vendor/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.obj"
+},
+{
+  "directory": "/home/lu/dev/husk/build-win64/vendor/imgui",
+  "command": "/usr/bin/x86_64-w64-mingw32-g++  @CMakeFiles/imgui.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/imgui.dir/imgui_tables.cpp.obj -c /home/lu/dev/husk/vendor/imgui/imgui_tables.cpp",
+  "file": "/home/lu/dev/husk/vendor/imgui/imgui_tables.cpp",
+  "output": "vendor/imgui/CMakeFiles/imgui.dir/imgui_tables.cpp.obj"
+},
+{
+  "directory": "/home/lu/dev/husk/build-win64/vendor/imgui",
+  "command": "/usr/bin/x86_64-w64-mingw32-g++  @CMakeFiles/imgui.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/imgui.dir/imgui_widgets.cpp.obj -c /home/lu/dev/husk/vendor/imgui/imgui_widgets.cpp",
+  "file": "/home/lu/dev/husk/vendor/imgui/imgui_widgets.cpp",
+  "output": "vendor/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.obj"
+},
+{
+  "directory": "/home/lu/dev/husk/build-win64/vendor/imgui",
+  "command": "/usr/bin/x86_64-w64-mingw32-g++  @CMakeFiles/imgui.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/imgui.dir/backends/imgui_impl_dx9.cpp.obj -c /home/lu/dev/husk/vendor/imgui/backends/imgui_impl_dx9.cpp",
+  "file": "/home/lu/dev/husk/vendor/imgui/backends/imgui_impl_dx9.cpp",
+  "output": "vendor/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_dx9.cpp.obj"
+},
+{
+  "directory": "/home/lu/dev/husk/build-win64/vendor/imgui",
+  "command": "/usr/bin/x86_64-w64-mingw32-g++  @CMakeFiles/imgui.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/imgui.dir/backends/imgui_impl_win32.cpp.obj -c /home/lu/dev/husk/vendor/imgui/backends/imgui_impl_win32.cpp",
+  "file": "/home/lu/dev/husk/vendor/imgui/backends/imgui_impl_win32.cpp",
+  "output": "vendor/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_win32.cpp.obj"
+},
+{
+  "directory": "/home/lu/dev/husk/build-win64/src/external",
+  "command": "/usr/bin/x86_64-w64-mingw32-g++  @CMakeFiles/husk_external.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/husk_external.dir/main.cpp.obj -c /home/lu/dev/husk/src/external/main.cpp",
+  "file": "/home/lu/dev/husk/src/external/main.cpp",
+  "output": "src/external/CMakeFiles/husk_external.dir/main.cpp.obj"
+},
+{
+  "directory": "/home/lu/dev/husk/build-win64/src/external",
+  "command": "/usr/bin/x86_64-w64-mingw32-g++  @CMakeFiles/husk_external.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/husk_external.dir/memory/mem.cpp.obj -c /home/lu/dev/husk/src/external/memory/mem.cpp",
+  "file": "/home/lu/dev/husk/src/external/memory/mem.cpp",
+  "output": "src/external/CMakeFiles/husk_external.dir/memory/mem.cpp.obj"
+},
+{
+  "directory": "/home/lu/dev/husk/build-win64/src/internal",
+  "command": "/usr/bin/x86_64-w64-mingw32-g++ -Dhusk_internal_EXPORTS @CMakeFiles/husk_internal.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/husk_internal.dir/dllmain.cpp.obj -c /home/lu/dev/husk/src/internal/dllmain.cpp",
+  "file": "/home/lu/dev/husk/src/internal/dllmain.cpp",
+  "output": "src/internal/CMakeFiles/husk_internal.dir/dllmain.cpp.obj"
+}
+]

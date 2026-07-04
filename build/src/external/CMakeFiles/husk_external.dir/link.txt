@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/husk_external.dir/link.d CMakeFiles/husk_external.dir/main.cpp.o CMakeFiles/husk_external.dir/memory/mem.cpp.o -o ../../bin/husk_external  ../../vendor/imgui/libimgui.a -lpsapi -ld3d9

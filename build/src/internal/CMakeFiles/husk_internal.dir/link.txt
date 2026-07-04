@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -Wl,--dependency-file=CMakeFiles/husk_internal.dir/link.d -shared -Wl,-soname,husk_internal.so -o ../../bin/husk_internal.so CMakeFiles/husk_internal.dir/dllmain.cpp.o  ../../vendor/imgui/libimgui.a -ld3d9

@@ -130,6 +130,30 @@ husk_external/fast:
 	cd /home/lu/dev/husk/build-win64 && $(MAKE) $(MAKESILENT) -f src/external/CMakeFiles/husk_external.dir/build.make src/external/CMakeFiles/husk_external.dir/build
 .PHONY : husk_external/fast
 
+dx9/windowing.obj: dx9/windowing.cpp.obj
+.PHONY : dx9/windowing.obj
+
+# target to build an object file
+dx9/windowing.cpp.obj:
+	cd /home/lu/dev/husk/build-win64 && $(MAKE) $(MAKESILENT) -f src/external/CMakeFiles/husk_external.dir/build.make src/external/CMakeFiles/husk_external.dir/dx9/windowing.cpp.obj
+.PHONY : dx9/windowing.cpp.obj
+
+dx9/windowing.i: dx9/windowing.cpp.i
+.PHONY : dx9/windowing.i
+
+# target to preprocess a source file
+dx9/windowing.cpp.i:
+	cd /home/lu/dev/husk/build-win64 && $(MAKE) $(MAKESILENT) -f src/external/CMakeFiles/husk_external.dir/build.make src/external/CMakeFiles/husk_external.dir/dx9/windowing.cpp.i
+.PHONY : dx9/windowing.cpp.i
+
+dx9/windowing.s: dx9/windowing.cpp.s
+.PHONY : dx9/windowing.s
+
+# target to generate assembly for a file
+dx9/windowing.cpp.s:
+	cd /home/lu/dev/husk/build-win64 && $(MAKE) $(MAKESILENT) -f src/external/CMakeFiles/husk_external.dir/build.make src/external/CMakeFiles/husk_external.dir/dx9/windowing.cpp.s
+.PHONY : dx9/windowing.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -187,6 +211,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... husk_external"
+	@echo "... dx9/windowing.obj"
+	@echo "... dx9/windowing.i"
+	@echo "... dx9/windowing.s"
 	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"

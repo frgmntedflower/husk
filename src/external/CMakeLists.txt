@@ -1,7 +1,9 @@
 add_executable(husk_external
     main.cpp
     memory/mem.cpp
+    dx9/windowing.cpp
 )
+
 
 target_include_directories(husk_external PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}
@@ -11,6 +13,7 @@ target_include_directories(husk_external PRIVATE
 target_link_libraries(husk_external PRIVATE
     imgui
     psapi   # GetModuleInformation
+    dwmapi
 )
 
 set_target_properties(husk_external PROPERTIES

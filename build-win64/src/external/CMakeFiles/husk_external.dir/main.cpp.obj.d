@@ -69,6 +69,7 @@ src/external/CMakeFiles/husk_external.dir/main.cpp.obj: \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/tr1/poly_hermite.tcc \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/tr1/poly_laguerre.tcc \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/tr1/riemann_zeta.tcc \
+ /home/lu/dev/husk/src/external/dx9/windowing.hpp \
  /home/lu/dev/husk/vendor/imgui/imgui.h \
  /home/lu/dev/husk/vendor/imgui/imconfig.h \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/float.h \
@@ -80,12 +81,16 @@ src/external/CMakeFiles/husk_external.dir/main.cpp.obj: \
  /usr/share/mingw-w64/include/sec_api/string_s.h \
  /usr/share/mingw-w64/include/assert.h \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/cstdlib \
- /home/lu/dev/husk/src/external/memory/mem.hpp \
+ /home/lu/dev/husk/vendor/imgui/backends/imgui_impl_dx9.h \
+ /home/lu/dev/husk/vendor/imgui/backends/imgui_impl_win32.h \
+ /usr/share/mingw-w64/include/d3d9.h \
+ /usr/share/mingw-w64/include/objbase.h \
+ /usr/share/mingw-w64/include/winapifamily.h \
+ /usr/share/mingw-w64/include/rpc.h \
  /usr/share/mingw-w64/include/windows.h \
  /usr/share/mingw-w64/include/sdkddkver.h \
  /usr/share/mingw-w64/include/excpt.h \
  /usr/share/mingw-w64/include/windef.h \
- /usr/share/mingw-w64/include/winapifamily.h \
  /usr/share/mingw-w64/include/minwindef.h \
  /usr/share/mingw-w64/include/specstrings.h \
  /usr/share/mingw-w64/include/sal.h \
@@ -271,7 +276,7 @@ src/external/CMakeFiles/husk_external.dir/main.cpp.obj: \
  /usr/share/mingw-w64/include/mmeapi.h \
  /usr/share/mingw-w64/include/timeapi.h \
  /usr/share/mingw-w64/include/joystickapi.h \
- /usr/share/mingw-w64/include/nb30.h /usr/share/mingw-w64/include/rpc.h \
+ /usr/share/mingw-w64/include/nb30.h \
  /usr/share/mingw-w64/include/rpcdce.h \
  /usr/share/mingw-w64/include/rpcdcep.h \
  /usr/share/mingw-w64/include/rpcnsi.h \
@@ -300,10 +305,12 @@ src/external/CMakeFiles/husk_external.dir/main.cpp.obj: \
  /usr/share/mingw-w64/include/rpcndr.h \
  /usr/share/mingw-w64/include/rpcnsip.h \
  /usr/share/mingw-w64/include/rpcsal.h \
- /usr/share/mingw-w64/include/ole2.h \
- /usr/share/mingw-w64/include/objbase.h \
- /usr/share/mingw-w64/include/combaseapi.h \
  /usr/share/mingw-w64/include/wtypesbase.h \
+ /usr/share/mingw-w64/include/winioctl.h \
+ /usr/share/mingw-w64/include/winsmcrd.h \
+ /usr/share/mingw-w64/include/winspool.h \
+ /usr/share/mingw-w64/include/prsht.h /usr/share/mingw-w64/include/ole2.h \
+ /usr/share/mingw-w64/include/combaseapi.h \
  /usr/share/mingw-w64/include/unknwnbase.h \
  /usr/share/mingw-w64/include/objidlbase.h \
  /usr/share/mingw-w64/include/cguid.h \
@@ -316,19 +323,22 @@ src/external/CMakeFiles/husk_external.dir/main.cpp.obj: \
  /usr/share/mingw-w64/include/oaidl.h \
  /usr/share/mingw-w64/include/propidl.h \
  /usr/share/mingw-w64/include/oleauto.h \
- /usr/share/mingw-w64/include/winioctl.h \
- /usr/share/mingw-w64/include/winsmcrd.h \
- /usr/share/mingw-w64/include/winspool.h \
- /usr/share/mingw-w64/include/prsht.h \
  /usr/share/mingw-w64/include/commdlg.h \
  /usr/share/mingw-w64/include/stralign.h \
  /usr/share/mingw-w64/include/sec_api/stralign_s.h \
  /usr/share/mingw-w64/include/winsvc.h /usr/share/mingw-w64/include/mcx.h \
  /usr/share/mingw-w64/include/imm.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/string \
+ /usr/share/mingw-w64/include/d3d9types.h \
+ /usr/share/mingw-w64/include/d3d9caps.h \
+ /usr/share/mingw-w64/include/tchar.h \
+ /usr/share/mingw-w64/include/sec_api/tchar_s.h \
+ /home/lu/dev/husk/src/external/memory/mem.hpp \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/iostream \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/ostream \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/ios \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/iosfwd \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/stringfwd.h \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/memoryfwd.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/char_traits.h \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/postypes.h \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/cwchar \
  /usr/share/mingw-w64/include/wchar.h \
@@ -337,19 +347,34 @@ src/external/CMakeFiles/husk_external.dir/main.cpp.obj: \
  /usr/share/mingw-w64/include/_mingw_stat64.h \
  /usr/share/mingw-w64/include/swprintf.inl \
  /usr/share/mingw-w64/include/sec_api/wchar_s.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/allocator.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/new_allocator.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/new \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/exception \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/exception.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/exception_ptr.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/cxxabi_init_exception.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/typeinfo \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/hash_bytes.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/new \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/nested_exception.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/char_traits.h \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/localefwd.h \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/clocale \
  /usr/share/mingw-w64/include/locale.h \
  /usr/share/mingw-w64/include/stdio.h \
  /usr/share/mingw-w64/include/sec_api/stdio_s.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/iosfwd \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/cctype \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/ios_base.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/ext/atomicity.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/x86_64-w64-mingw32/bits/gthr.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
+ /usr/share/mingw-w64/include/sys/timeb.h \
+ /usr/share/mingw-w64/include/sec_api/sys/timeb_s.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/locale_classes.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/string \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/allocator.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/new_allocator.h \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/ostream_insert.h \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/cxxabi_forced.h \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/stl_function.h \
@@ -364,7 +389,6 @@ src/external/CMakeFiles/husk_external.dir/main.cpp.obj: \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/stl_construct.h \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/string_view \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/functional_hash.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/hash_bytes.h \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/string_view.tcc \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/ext/string_conversions.h \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/cstdio \
@@ -376,22 +400,6 @@ src/external/CMakeFiles/husk_external.dir/main.cpp.obj: \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/uses_allocator.h \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/uses_allocator_args.h \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/tuple \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/iostream \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/ostream \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/ios \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/exception \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/exception_ptr.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/cxxabi_init_exception.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/typeinfo \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/nested_exception.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/ios_base.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/ext/atomicity.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/x86_64-w64-mingw32/bits/gthr.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
- /usr/share/mingw-w64/include/sys/timeb.h \
- /usr/share/mingw-w64/include/sec_api/sys/timeb_s.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/locale_classes.h \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/locale_classes.tcc \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/system_error \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
@@ -409,4 +417,5 @@ src/external/CMakeFiles/husk_external.dir/main.cpp.obj: \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/basic_ios.tcc \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/ostream.tcc \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/istream \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/istream.tcc
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/istream.tcc \
+ /usr/share/mingw-w64/include/tlhelp32.h

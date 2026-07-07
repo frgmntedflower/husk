@@ -48,6 +48,12 @@
   "output": "src/external/CMakeFiles/husk_external.dir/memory/mem.cpp.obj"
 },
 {
+  "directory": "/home/lu/dev/husk/build-win64/src/external",
+  "command": "/usr/bin/x86_64-w64-mingw32-g++  @CMakeFiles/husk_external.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/husk_external.dir/dx9/windowing.cpp.obj -c /home/lu/dev/husk/src/external/dx9/windowing.cpp",
+  "file": "/home/lu/dev/husk/src/external/dx9/windowing.cpp",
+  "output": "src/external/CMakeFiles/husk_external.dir/dx9/windowing.cpp.obj"
+},
+{
   "directory": "/home/lu/dev/husk/build-win64/src/internal",
   "command": "/usr/bin/x86_64-w64-mingw32-g++ -Dhusk_internal_EXPORTS @CMakeFiles/husk_internal.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/husk_internal.dir/dllmain.cpp.obj -c /home/lu/dev/husk/src/internal/dllmain.cpp",
   "file": "/home/lu/dev/husk/src/internal/dllmain.cpp",

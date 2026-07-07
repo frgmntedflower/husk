@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/lu/dev/husk/src/external/dx9/windowing.cpp" "src/external/CMakeFiles/husk_external.dir/dx9/windowing.cpp.obj" "gcc" "src/external/CMakeFiles/husk_external.dir/dx9/windowing.cpp.obj.d"
   "/home/lu/dev/husk/src/external/main.cpp" "src/external/CMakeFiles/husk_external.dir/main.cpp.obj" "gcc" "src/external/CMakeFiles/husk_external.dir/main.cpp.obj.d"
   "/home/lu/dev/husk/src/external/memory/mem.cpp" "src/external/CMakeFiles/husk_external.dir/memory/mem.cpp.obj" "gcc" "src/external/CMakeFiles/husk_external.dir/memory/mem.cpp.obj.d"
   )

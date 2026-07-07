@@ -1,13 +1,10 @@
-src/external/CMakeFiles/husk_external.dir/memory/mem.cpp.obj: \
- /home/lu/dev/husk/src/external/memory/mem.cpp \
- /home/lu/dev/husk/src/external/memory/mem.hpp \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/cstdint \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/x86_64-w64-mingw32/bits/c++config.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/pstl/pstl_config.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/stdint.h \
- /usr/share/mingw-w64/include/stdint.h \
+src/external/CMakeFiles/husk_external.dir/dx9/windowing.cpp.obj: \
+ /home/lu/dev/husk/src/external/dx9/windowing.cpp \
+ /home/lu/dev/husk/src/external/dx9/windowing.hpp \
+ /home/lu/dev/husk/vendor/imgui/imgui.h \
+ /home/lu/dev/husk/vendor/imgui/imconfig.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/float.h \
+ /usr/share/mingw-w64/include/float.h \
  /usr/share/mingw-w64/include/crtdefs.h \
  /usr/share/mingw-w64/include/corecrt.h \
  /usr/share/mingw-w64/include/_mingw.h \
@@ -15,52 +12,22 @@ src/external/CMakeFiles/husk_external.dir/memory/mem.cpp.obj: \
  /usr/share/mingw-w64/include/_mingw_secapi.h \
  /usr/share/mingw-w64/include/vadefs.h \
  /usr/share/mingw-w64/include/sdks/_mingw_ddk.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/stdarg.h \
+ /usr/share/mingw-w64/include/stdarg.h \
+ /usr/share/mingw-w64/include/_mingw_stdarg.h \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/stddef.h \
  /usr/share/mingw-w64/include/stddef.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/iostream \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/requires_hosted.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/ostream \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/ios \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/iosfwd \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/stringfwd.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/memoryfwd.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/postypes.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/cwchar \
- /usr/share/mingw-w64/include/wchar.h \
- /usr/share/mingw-w64/include/corecrt_stdio_config.h \
- /usr/share/mingw-w64/include/corecrt_wstdlib.h \
- /usr/share/mingw-w64/include/_mingw_off_t.h \
- /usr/share/mingw-w64/include/_mingw_stat64.h \
- /usr/share/mingw-w64/include/swprintf.inl \
- /usr/share/mingw-w64/include/sec_api/wchar_s.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/exception \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/exception.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/version.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/exception_ptr.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/exception_defines.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/cxxabi_init_exception.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/typeinfo \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/hash_bytes.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/new \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/move.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/type_traits \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/nested_exception.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/char_traits.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/localefwd.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/clocale \
- /usr/share/mingw-w64/include/locale.h \
- /usr/share/mingw-w64/include/stdio.h \
- /usr/share/mingw-w64/include/sec_api/stdio_s.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/cctype \
- /usr/share/mingw-w64/include/ctype.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/ios_base.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/ext/atomicity.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/x86_64-w64-mingw32/bits/gthr.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
+ /usr/share/mingw-w64/include/string.h \
+ /usr/share/mingw-w64/include/sec_api/string_s.h \
+ /usr/share/mingw-w64/include/assert.h \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/stdlib.h \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/cstdlib \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/x86_64-w64-mingw32/bits/c++config.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/pstl/pstl_config.h \
  /usr/share/mingw-w64/include/stdlib.h \
+ /usr/share/mingw-w64/include/corecrt_wstdlib.h \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/limits.h \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/syslimits.h \
  /usr/share/mingw-w64/include/limits.h \
@@ -69,90 +36,67 @@ src/external/CMakeFiles/husk_external.dir/memory/mem.cpp.obj: \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/mm_malloc.h \
  /usr/share/mingw-w64/include/errno.h \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/std_abs.h \
- /usr/share/mingw-w64/include/sys/timeb.h \
- /usr/share/mingw-w64/include/sec_api/sys/timeb_s.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/locale_classes.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/string \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/allocator.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/new_allocator.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/functexcept.h \
+ /home/lu/dev/husk/vendor/imgui/backends/imgui_impl_dx9.h \
+ /home/lu/dev/husk/vendor/imgui/backends/imgui_impl_win32.h \
+ /home/lu/dev/husk/src/external/../shared/sdk/vec3.hpp \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/cmath \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/requires_hosted.h \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/cpp_type_traits.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/ostream_insert.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/cxxabi_forced.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/version.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/ext/type_traits.h \
+ /usr/share/mingw-w64/include/math.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/specfun.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/stl_algobase.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/functexcept.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/exception_defines.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/ext/numeric_traits.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/stl_pair.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/type_traits \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/move.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/utility.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/stl_iterator_base_types.h \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/stl_iterator_base_funcs.h \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/concept_check.h \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/debug/assertions.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/stl_iterator_base_types.h \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/stl_iterator.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/ext/type_traits.h \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/ptr_traits.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/stl_function.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/backward/binders.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/ext/numeric_traits.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/stl_algobase.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/stl_pair.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/utility.h \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/debug/debug.h \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/predefined_ops.h \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bit \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/concepts \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/refwrap.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/invoke.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/range_access.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/initializer_list \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/basic_string.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/ext/alloc_traits.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/alloc_traits.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/stl_construct.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/string_view \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/functional_hash.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/string_view.tcc \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/ext/string_conversions.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/cstdio \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/cerrno \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/charconv.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/basic_string.tcc \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/memory_resource.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/cstddef \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/uses_allocator.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/uses_allocator_args.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/tuple \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/locale_classes.tcc \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/system_error \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/stdexcept \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/streambuf \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/streambuf.tcc \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/basic_ios.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/locale_facets.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/cwctype \
- /usr/share/mingw-w64/include/wctype.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/streambuf_iterator.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/locale_facets.tcc \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/basic_ios.tcc \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/ostream.tcc \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/istream \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/istream.tcc \
- /usr/share/mingw-w64/include/minwindef.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/limits \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/tr1/gamma.tcc \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/tr1/special_function_util.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/tr1/bessel_function.tcc \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/tr1/beta_function.tcc \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/tr1/ell_integral.tcc \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/tr1/exp_integral.tcc \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/tr1/hypergeometric.tcc \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/tr1/legendre_function.tcc \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/tr1/modified_bessel_func.tcc \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/tr1/poly_hermite.tcc \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/tr1/poly_laguerre.tcc \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/tr1/riemann_zeta.tcc \
+ /usr/share/mingw-w64/include/d3d9.h \
+ /usr/share/mingw-w64/include/objbase.h \
  /usr/share/mingw-w64/include/winapifamily.h \
+ /usr/share/mingw-w64/include/rpc.h \
+ /usr/share/mingw-w64/include/windows.h \
+ /usr/share/mingw-w64/include/sdkddkver.h \
+ /usr/share/mingw-w64/include/excpt.h \
+ /usr/share/mingw-w64/include/windef.h \
+ /usr/share/mingw-w64/include/minwindef.h \
  /usr/share/mingw-w64/include/specstrings.h \
  /usr/share/mingw-w64/include/sal.h \
  /usr/share/mingw-w64/include/concurrencysal.h \
  /usr/share/mingw-w64/include/driverspecs.h \
  /usr/share/mingw-w64/include/winnt.h \
  /usr/share/mingw-w64/include/_mingw_unicode.h \
- /usr/share/mingw-w64/include/excpt.h \
+ /usr/share/mingw-w64/include/ctype.h \
  /usr/share/mingw-w64/include/apiset.h \
  /usr/share/mingw-w64/include/psdk_inc/intrin-impl.h \
- /usr/share/mingw-w64/include/sdkddkver.h \
  /usr/share/mingw-w64/include/basetsd.h \
  /usr/share/mingw-w64/include/guiddef.h \
- /usr/share/mingw-w64/include/string.h \
- /usr/share/mingw-w64/include/sec_api/string_s.h \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/x86intrin.h \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/x86gprintrin.h \
  /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/ia32intrin.h \
@@ -266,12 +210,6 @@ src/external/CMakeFiles/husk_external.dir/memory/mem.cpp.obj: \
  /usr/share/mingw-w64/include/pshpack8.h \
  /usr/share/mingw-w64/include/pshpack8.h \
  /usr/share/mingw-w64/include/ktmtypes.h \
- /usr/share/mingw-w64/include/tlhelp32.h \
- /usr/share/mingw-w64/include/windows.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/stdarg.h \
- /usr/share/mingw-w64/include/stdarg.h \
- /usr/share/mingw-w64/include/_mingw_stdarg.h \
- /usr/share/mingw-w64/include/windef.h \
  /usr/share/mingw-w64/include/winbase.h \
  /usr/share/mingw-w64/include/apisetcconv.h \
  /usr/share/mingw-w64/include/minwinbase.h \
@@ -332,7 +270,7 @@ src/external/CMakeFiles/husk_external.dir/memory/mem.cpp.obj: \
  /usr/share/mingw-w64/include/mmeapi.h \
  /usr/share/mingw-w64/include/timeapi.h \
  /usr/share/mingw-w64/include/joystickapi.h \
- /usr/share/mingw-w64/include/nb30.h /usr/share/mingw-w64/include/rpc.h \
+ /usr/share/mingw-w64/include/nb30.h \
  /usr/share/mingw-w64/include/rpcdce.h \
  /usr/share/mingw-w64/include/rpcdcep.h \
  /usr/share/mingw-w64/include/rpcnsi.h \
@@ -361,10 +299,12 @@ src/external/CMakeFiles/husk_external.dir/memory/mem.cpp.obj: \
  /usr/share/mingw-w64/include/rpcndr.h \
  /usr/share/mingw-w64/include/rpcnsip.h \
  /usr/share/mingw-w64/include/rpcsal.h \
- /usr/share/mingw-w64/include/ole2.h \
- /usr/share/mingw-w64/include/objbase.h \
- /usr/share/mingw-w64/include/combaseapi.h \
  /usr/share/mingw-w64/include/wtypesbase.h \
+ /usr/share/mingw-w64/include/winioctl.h \
+ /usr/share/mingw-w64/include/winsmcrd.h \
+ /usr/share/mingw-w64/include/winspool.h \
+ /usr/share/mingw-w64/include/prsht.h /usr/share/mingw-w64/include/ole2.h \
+ /usr/share/mingw-w64/include/combaseapi.h \
  /usr/share/mingw-w64/include/unknwnbase.h \
  /usr/share/mingw-w64/include/objidlbase.h \
  /usr/share/mingw-w64/include/cguid.h \
@@ -377,13 +317,97 @@ src/external/CMakeFiles/husk_external.dir/memory/mem.cpp.obj: \
  /usr/share/mingw-w64/include/oaidl.h \
  /usr/share/mingw-w64/include/propidl.h \
  /usr/share/mingw-w64/include/oleauto.h \
- /usr/share/mingw-w64/include/winioctl.h \
- /usr/share/mingw-w64/include/winsmcrd.h \
- /usr/share/mingw-w64/include/winspool.h \
- /usr/share/mingw-w64/include/prsht.h \
  /usr/share/mingw-w64/include/commdlg.h \
  /usr/share/mingw-w64/include/stralign.h \
  /usr/share/mingw-w64/include/sec_api/stralign_s.h \
  /usr/share/mingw-w64/include/winsvc.h /usr/share/mingw-w64/include/mcx.h \
  /usr/share/mingw-w64/include/imm.h \
- /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/cstring
+ /usr/share/mingw-w64/include/d3d9types.h \
+ /usr/share/mingw-w64/include/d3d9caps.h \
+ /usr/share/mingw-w64/include/tchar.h \
+ /usr/share/mingw-w64/include/sec_api/tchar_s.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/iostream \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/ostream \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/ios \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/iosfwd \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/stringfwd.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/memoryfwd.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/postypes.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/cwchar \
+ /usr/share/mingw-w64/include/wchar.h \
+ /usr/share/mingw-w64/include/corecrt_stdio_config.h \
+ /usr/share/mingw-w64/include/_mingw_off_t.h \
+ /usr/share/mingw-w64/include/_mingw_stat64.h \
+ /usr/share/mingw-w64/include/swprintf.inl \
+ /usr/share/mingw-w64/include/sec_api/wchar_s.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/exception \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/exception.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/exception_ptr.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/cxxabi_init_exception.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/typeinfo \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/hash_bytes.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/new \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/nested_exception.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/char_traits.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/localefwd.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/clocale \
+ /usr/share/mingw-w64/include/locale.h \
+ /usr/share/mingw-w64/include/stdio.h \
+ /usr/share/mingw-w64/include/sec_api/stdio_s.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/cctype \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/ios_base.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/ext/atomicity.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/x86_64-w64-mingw32/bits/gthr.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
+ /usr/share/mingw-w64/include/sys/timeb.h \
+ /usr/share/mingw-w64/include/sec_api/sys/timeb_s.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/locale_classes.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/string \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/allocator.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/new_allocator.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/ostream_insert.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/cxxabi_forced.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/stl_function.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/backward/binders.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/refwrap.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/invoke.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/range_access.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/initializer_list \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/basic_string.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/ext/alloc_traits.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/alloc_traits.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/stl_construct.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/string_view \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/functional_hash.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/string_view.tcc \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/ext/string_conversions.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/cstdio \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/cerrno \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/charconv.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/basic_string.tcc \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/memory_resource.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/cstddef \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/uses_allocator.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/uses_allocator_args.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/tuple \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/locale_classes.tcc \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/system_error \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/stdexcept \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/streambuf \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/streambuf.tcc \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/basic_ios.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/locale_facets.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/cwctype \
+ /usr/share/mingw-w64/include/wctype.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/streambuf_iterator.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/locale_facets.tcc \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/basic_ios.tcc \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/ostream.tcc \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/istream \
+ /usr/lib/gcc/x86_64-w64-mingw32/14-win32/include/c++/bits/istream.tcc
